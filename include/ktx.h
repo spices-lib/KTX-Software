@@ -36,6 +36,7 @@
  * Don't use khrplatform.h in order not to break apps existing
  * before these definitions were needed.
  */
+#define KHRONOS_STATIC
 #if defined(KHRONOS_STATIC)
   #define KTX_API
 #elif defined(_WIN32) || defined(__CYGWIN__)
